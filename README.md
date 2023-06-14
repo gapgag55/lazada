@@ -1,1 +1,1 @@
-# lazada
+# lazada only
