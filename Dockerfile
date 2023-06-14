@@ -3,6 +3,8 @@ FROM node:18
 # Create app directory
 WORKDIR /usr/src/app
 
+RUN apt-get update
+RUN apt-get install
 RUN apt install libnss
 RUN apt install libnss3-dev libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev
 
