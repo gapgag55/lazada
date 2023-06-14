@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 const init = async () => {
   const server = Hapi.server({
     port: 80,
-    host: 'localhost'
+    host: '0.0.0.0'
   });
 
   let browser;
