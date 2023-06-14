@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM node
 
 # Create app directory
 WORKDIR /usr/src/app
