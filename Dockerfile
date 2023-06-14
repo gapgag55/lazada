@@ -1,4 +1,4 @@
-FROM ubuntu:18
+FROM ubuntu:18.04
 
 # Install Node.js
 RUN apt-get install -y nodejs
