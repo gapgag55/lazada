@@ -1,5 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const puppeteer = require('puppeteer');
+// Comment
 
 const init = async () => {
   const server = Hapi.server({
